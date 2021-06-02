@@ -1,4 +1,4 @@
-import React,{ useState, useEffect} from 'react';
+import { useState,useEffect} from 'react';
 import validation from "./validation";
 const useForm = (submitForm) =>{
 const [values,setValues] = useState({
@@ -28,7 +28,7 @@ useEffect(() => {
      submitForm (true);
         
     }
-}, [errors]);
+},);
 return { handleChange, handleFormSubmit,errors,values};
 };
 export default useForm;
