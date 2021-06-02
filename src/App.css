@@ -45,13 +45,15 @@
 .input{
   height: 32px;
   font-size: 20px;
+
+  color: rgb(32, 29, 27);
   outline: none;
   width: 100%;
-  border-top-style:none;
-  border-left-style: none; 
-  border-left-style: none;
-  border-bottom-style: 2px solid black;
-  margin-bottom: 10px;
+  box-sizing: border-box;
+  
+  box-shadow: rgba(0, 0,0, 0.3) 0px 19px 38px,rgba(0, 0, 0, 0.22)0px 15px 12px;
+ 
+
 }
 
 .error{
@@ -63,6 +65,7 @@
   font-size: 15px;
   text-align: center; 
   box-sizing: border-box;
+  
   color: rgb(32, 29, 27);
   background: linear-gradient(to right,#e68507,#e69e05);
   box-shadow: rgba(0, 0,0, 0.3) 0px 19px 38px,rgba(0, 0, 0, 0.22)0px 15px 12px;
@@ -88,3 +91,9 @@ button:active{
   color: #f80759;
 }
 
+.adp{
+  display: flex;
+  box-sizing: border-box;
+  margin: 1rem;
+  padding: auto;
+}
