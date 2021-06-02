@@ -14,7 +14,7 @@ const Login = ({submitForm}) => {
             </div>
             <form className = "form-wrapper">
             <div className ="name">
-            <label className ="label">Full Name</label>
+            <label className ="label">Your Name</label>
             <input className="input" type="text" name="fullname" value={values.fullname} onChange={handleChange}/>
             {errors.fullname && <p className="error">{errors.fullname}</p>}  
 
@@ -39,6 +39,15 @@ const Login = ({submitForm}) => {
             <div>
             <button className="submit" onClick={handleFormSubmit}>Create your Amazon account</button>
             </div>
+            <div>By creating an account, you agree to Amazon's Conditions of Use and Privacy Notice.</div>
+            <div className="adp">
+            <ul>
+            <li>Already have an account? Sign-In
+            
+            </li>
+            <li>
+            Purchasing for work? Create a free business account</li>
+            </ul></div>
             </form>
             </div>
         </div>
