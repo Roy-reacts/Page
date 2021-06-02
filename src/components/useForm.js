@@ -25,10 +25,10 @@ const handleFormSubmit = (event)=> {
 };
 useEffect(() => {
     if (Object.keys(errors).length === 0 && dataIsCorrect){
-     submitForm (true);
+        submitForm (true);
         
     }
-},);
+} , [dataIsCorrect,submitForm,errors]);
 return { handleChange, handleFormSubmit,errors,values};
 };
 export default useForm;
