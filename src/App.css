@@ -10,7 +10,7 @@
   
 }
 .container{
-  background: linear-gradient(135deg,#850c62,#f80759);
+  background: linear-gradient(135deg,#faf8f9,#f0eced);
   width : 100%;
   min-height: 100vh;
   display: flex;
@@ -20,8 +20,8 @@
 
 .app-wrapper{
   background-color: #fff;
-  min-width: 350px;
-  min-height: 650px;
+  width: 350px;
+  height: 750px;
   padding: 30px;
   box-sizing: border-box;
   border-radius: 5px;
